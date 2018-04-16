@@ -1,0 +1,2 @@
+jQuery(function($){if(!$('#et-info').length){$('#top-header .container').prepend('<div id="et-info"></div>');}
+$('#et-info').prepend('<span id="db-info-text" style="margin:0 10px">'+"Bienvenue"+'</span>');});jQuery(function($){$('#footer-info').html("\u00a9,2018 <div id='contacter nous'>\r\n<a href='http:\/\/blank05\/contact\/'>contacter nous ici<\/a> \r\n<\/div>");});jQuery(function($){$('#et-info-phone').wrap(function(){var num='0100000000';num=num.replace(/[^0-9+]+/g,'-');num=num.replace(/^[-]|[-]$/g,'');return'<a href="tel:'+num+'"></a>';});});
